@@ -1,0 +1,13 @@
+<form method="post" action="convert_svg.cgi?project=quickie" name="ex" id="ex" style=" position:fixed;top:6px;right:30px;display:none;"  target="_blank">
+    <input type="hidden" id="source" name="source" value="">
+    <select id="exptype" name="type" class="ui-button ui-state-default ui-corner-all" style="height:16px;font: italic 10px Times,Serif;border:thin solid silver;" >
+        <option>pdf</option>
+        <option>ps</option>
+        <option>odg</option>
+        <option>jpg</option>
+        <option>png</option>
+        <option value="tif">tiff</option>
+        <option>svg</option>
+    </select>
+    <input type="button" title="export" value="export" class="ui-button ui-state-default ui-corner-all" onClick="exportTree();"  style="padding: 0.0em 0.0em;" >
+</form>
